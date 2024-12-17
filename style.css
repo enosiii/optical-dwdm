@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(3, 175, 31, 0.1);
+}
+
+header img#logo {
+    max-width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #005bb5;
+}
+
+/* File List */
+ul#file-list {
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+ul#file-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+ul#file-list li a {
+    text-decoration: none;
+    color: #0073e6;
+    transition: color 0.2s ease;
+}
+
+ul#file-list li a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* File Viewer */
+#file-viewer {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#file-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #005bb5;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #file-list {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #file-viewer {
+        width: 100%;
+    }
+}
