@@ -7,6 +7,75 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Instrumented libraries
+lib-cov
+
+# Coverage directories
+coverage
+*.lcov
+.nyc_output
+
+# Dependency directories
+node_modules/
+bower_components
+jspm_packages/
+web_modules/
+
+# Cache and output directories
+.cache/
+.parcel-cache/
+build/
+dist/
+.next/
+out/
+.nuxt/
+serverless/
+
+# IDE/Editor-specific files
+.idea/
+.vscode/
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+config.js  # Sensitive config file
+
+# Miscellaneous files
+*.tsbuildinfo
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Temporary or local files
+*.tmp
+*.tgz
+.node_repl_history
+
+# Lock files (optional, depends on project preferences)
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
